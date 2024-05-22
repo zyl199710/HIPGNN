@@ -1,0 +1,28 @@
+STRINGdb:
+    nclass: 1
+    nlayer: 2
+    num_heads: 2
+    hidden_dim: 128
+    hidden_dim1: 64
+    epoch: 501
+    lr: 0.001
+    weight_decay: 0.00001
+    tran_dropout: 0.2
+    feat_dropout: 0.2
+    prop_dropout: 0.2
+    norm: 'layer'
+    forward_expansion: 2
+CPDB:
+    nclass: 1
+    nlayer: 2
+    num_heads: 2
+    hidden_dim: 128
+    hidden_dim1: 64
+    epoch: 501
+    lr: 0.001
+    weight_decay: 0.00001
+    tran_dropout: 0.2
+    feat_dropout: 0.2
+    prop_dropout: 0.2
+    norm: 'layer'
+    forward_expansion: 2
