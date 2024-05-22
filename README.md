@@ -32,7 +32,7 @@ We eventually obtained two weighted graph datasets [STRINGdb (data/graph_STRINGd
 
 ## Method
 
-Please see the example in <font color="orange">HIPGNN.ipynb</font>, it is run on Google Colab using the L4 GPU.
+Please see the example in HIPGNN.ipynb, it is run on Google Colab using the L4 GPU.
 
 It mainly consists of two running steps.
 
