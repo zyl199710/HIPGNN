@@ -1,6 +1,6 @@
 # Rethinking Cancer Gene Identification through Graph Anomaly Analysis
 
-The open-resourced code and data for Neurips 2024 Submission - HIPGNN.
+The open-resourced code and data for AAAI 2024 Submission - HIPGNN.
 
 HIPGNN is a HIerarchical-Perspective Graph Neural Network to identify cancer genes, 
 - that not only determines spectral energy distribution variance on the spectral perspective, 
