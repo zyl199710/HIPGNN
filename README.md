@@ -38,11 +38,11 @@ The learning rate is set to 0.01, the hidden layer for the graph learning proces
 
 For the loss weights, we empirically set $\alpha = 0.01$ on the STRINGdb dataset, and $\alpha = 0.02$ on the CPDB dataset. Then we compute $\beta = 2/3(1-\alpha)$ and $\gamma = 1/3(1-\alpha)$. 
 
-The training ratio is set to 20\% and 80\% to model performance more adequately. 
+The random seed is fixed as 42.
 
-To uniformly evaluate the performance of models, we show the best performance of the AP metric throughout 500 training epochs in the test set. 
+The training ratio is set to 20\% and 80\% to model performance more adequately. To uniformly evaluate the performance of models, we show the best performance of the AP metric throughout 500 training epochs in the test set. 
 
-And the random seed is fixed as 42.
+
 
 ## Method
 
