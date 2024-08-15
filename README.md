@@ -31,6 +31,7 @@ In addition to following [EMOGI](https://github.com/schulter/EMOGI)'s data prepr
 We eventually obtained two weighted graph datasets [STRINGdb (data/graph_STRINGdb.bin)](data/graph_STRINGdb.bin) and [CPDB (data/graph_CPDB.bin)](data/graph_CPDB.bin)
 
 ## Implementation Details
+
 All experiments were performed on the L4 GPU resource in the Google colaboratory~\cite{bisong2019google}. Except as mentioned in the original paper, all the learning rate is set to 0.01, the hidden layer for the graph learning process is set to 128, the hidden layer for node representation is set to 64, and the number of layers in a GNN is set to $2$. For the loss weights, we empirically set $\alpha = 0.01$ on the STRINGdb dataset, and $\alpha = 0.02$ on the CPDB dataset. Then we compute $\beta = 2/3(1-\alpha)$ and $\gamma = 1/3(1-\alpha)$. The training ratio is set to 20\% and 80\% to model performance more adequately. To uniformly evaluate the performance of models, we show the best performance of the AP metric throughout 500 training epochs in the test set. And the random seed is fixed as 42.
 
 ## Method
