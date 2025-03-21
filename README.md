@@ -1,4 +1,4 @@
-# Rethinking Cancer Gene Identification through Graph Anomaly Analysis
+# Rethinking Cancer Gene Identification through Graph Anomaly Analysis - HIPGNN
 
 The open-resourced code and data for AAAI 2025 - HIPGNN.
 
